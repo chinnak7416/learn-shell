@@ -3,4 +3,4 @@ example() {
 }
 
 #call function
-example
+#example
