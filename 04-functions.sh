@@ -4,7 +4,7 @@ example() {
 
 #call function
 example
-
+#special variables for functions
 example1() {
   echo value of 1 = $1
   echo value of 2 = $2
