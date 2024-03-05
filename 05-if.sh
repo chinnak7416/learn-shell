@@ -58,31 +58,10 @@ x=$1
 if [ -z "$X" ]; then
   echo input is missing
   exit 1
+fi
 
 if [ $x -gt 100 ]; then
   echo "$x is greater than 100"
 else
   echo "$x is less than 100"
 fi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
