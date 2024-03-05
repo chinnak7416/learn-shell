@@ -55,6 +55,10 @@ EOF
 # -e , [ -e /etc/file ]
 x=$1
 #x=10
+if [ -z "$X" ]; then
+  echo input is missing
+  exit 1
+
 if [ $x -gt 100 ]; then
   echo "$x is greater than 100"
 else
