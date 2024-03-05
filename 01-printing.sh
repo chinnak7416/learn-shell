@@ -20,7 +20,8 @@ EOF
 
 echo -e "\e[31mHello in red \e[0m"
 echo -e "\e[32mHello in green \e[0m"
-echo -e "\e[31mHello in yellow \e[0m"
-echo -e "\e[31mHello in blue \e[0m"
-echo -e "\e[31mHello in magenta \e[0m"
-echo -e "\e[31mHello in cyan \e[0m"
+echo -e "\e[33mHello in yellow \e[0m"
+echo -e "\e[34mHello in blue \e[0m"
+echo -e "\e[35mHello in magenta \e[0m"
+echo -e "\e[36mHello in cyan \e[0m"
+echo -e "\e[37mHello in cyan \e[0m"
