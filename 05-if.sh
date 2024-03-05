@@ -54,7 +54,7 @@ EOF
 
 # -e , [ -e /etc/file ]
 x=$1
-if [ $x -gt 100 ]; then
+if [ "$x" -gt 100 ]; then
   echo "$x is greater than 100"
 else
   echo "$x is less than 100"
