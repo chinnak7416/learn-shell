@@ -55,7 +55,7 @@ EOF
 # -e , [ -e /etc/file ]
 #x=$1
 x=10
-if [ -z "$X" ]; then
+if [ -z "$x" ]; then
   echo input is missing
   exit 1
 fi
