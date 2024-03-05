@@ -53,7 +53,8 @@ EOF
 #-e #True if file exists
 
 # -e , [ -e /etc/file ]
-x=10
+x=$1
+#x=10
 if [ $x -gt 100 ]; then
   echo "$x is greater than 100"
 else
