@@ -7,5 +7,5 @@ done
 
 # for loop
 for fruit in apple banana grape orange ; do
-  echo Fruit - &fruit
+  echo fruit - $fruit
 done
