@@ -23,4 +23,5 @@ example3() {
 }
 
 example3
-#echo return status "$?"
+echo return status "$?"
+
